@@ -25,14 +25,10 @@
     color: #fff;
     font-size: 100px;
   }
-  .service-img{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+ 
   
   .products {
-    
+
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;

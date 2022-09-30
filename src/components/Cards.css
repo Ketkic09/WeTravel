@@ -6,6 +6,7 @@
 h1{
     text-align: center;
     margin-bottom: 20px;
+
 }
 
 .cards__container{
@@ -15,9 +16,10 @@ h1{
     max-width: 1120;
     width: 90%;
     margin: 0 auto;
+    
 }
 
-.card__wrapper{
+.cards__wrapper{
     margin-bottom: 24px;
     margin: 50px 0 45px;
 }
@@ -29,8 +31,9 @@ h1{
 .cards__item{
     display: flex;
     flex: 1;
-    margin: 0 1rem;
+    margin: 0 2rem;
     border-radius: 10px;
+    border: #fff solid 1px;
 }
 
 .cards__item__link{
@@ -71,11 +74,28 @@ h1{
     box-sizing: border-box;
   }
   
+  .cards__serviceitem__pic-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+  }
+  .cards__serviceitem__pic-wrap::after{
+    position:absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+   
+  }
   .cards__item__img {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0;  
     left: 0;
     display: block;
     width: 100%;
@@ -92,6 +112,9 @@ h1{
   
   .cards__item__info {
     padding: 20px 30px 30px;
+
+    background-color: #fff;
+ 
   }
   
   .cards__item__text {
@@ -99,7 +122,14 @@ h1{
     font-size: 18px;
     line-height: 24px;
   }
-  
+  .cards__serviceitem__text {
+    color: #252e48;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .service-h1{
+    color: #000;
+  }
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
